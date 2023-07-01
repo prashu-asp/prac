@@ -1,0 +1,28 @@
+syntax:
+
+
+//when u r defining the function outside of the class:
+
+
+       return_type classname :: operator op(arglist)
+       {
+        Function body
+       }
+
+
+       ex: vector class_name :: operator+(vector);
+
+
+// here "operator" is  a key word and 'op' is the symbol that we are trying to overload
+
+
+//when you are defining the function inside the class:
+
+       return_type operator op(arglist)
+       {
+        Function body
+       }
+
+
+       ex: vector operator+(vector);
+          

@@ -1,0 +1,13 @@
+destructors are used to destroy the objects created by the constructor.
+
+Destructor is used to delete the dynamically allocated memory.
+
+destructor never takes any argument nor does it return any value.
+
+syntax:
+
+      ~classname()
+      {
+
+      }
+
